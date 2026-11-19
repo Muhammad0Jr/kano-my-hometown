@@ -1,0 +1,140 @@
+body{
+    text-align: center;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #f1faee;
+    text-shadow: 0 0 5px #1D3557;
+    overflow-x: hidden;
+    font-family: "Happy Monkey", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.hero{
+    background-image: url(./media/Dala_Hills.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+    margin: 0;
+    padding: 20px;
+    color: #f1faee;
+}
+
+.hero h1 {
+    background-color: #a8dadc;
+    margin: 50px 0;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.hero h3 {
+    background-color: #457B9D;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 150px 0 0 0;
+}
+
+img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 2px solid #1D3557;
+}
+
+.top-places {
+    margin: 0;
+    height: 400px;
+    background: #1D3557;
+    text-shadow: 0 0 5px #1D3557;
+}
+
+#top-places {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0;
+}
+
+#kurmi {
+    background-image: url("./media/kurmiwall.jpg");
+    background-size: cover;
+    height: 300px;
+    width: 33%;
+    margin: 0 10px;
+    padding: 10px 0;
+    border: 2px solid #e63946;
+}
+
+#kurmi:hover {
+    background-image: url("./media/kurmipfp4.jpeg");
+    background-size: cover;
+    height: 300px;
+    margin: 0 10px;
+}
+
+#dye {
+    background-image: url("./media/dyewall2.jpg");
+    background-size: cover;
+    height: 300px;
+    width: 33%;
+    margin: 0 10px;
+    padding: 10px 0;
+    border: 2px solid #e63946;
+}
+
+#dye:hover {
+    background-image: url("./media/dyewall.jpg");
+    background-size: cover;
+    height: 300px;
+    margin: 0 10px;
+}
+
+#makama {
+    background-image: url("./media/museum.jpg");
+    background-size: cover;
+    height: 300px;
+    width: 33%;
+    margin: 0 10px;
+    padding: 10px 0;
+    border: 2px solid #e63946;
+}
+
+#makama:hover {
+    background-image: url("./media/frontpalace.jpeg");
+    background-size: cover;
+    height: 300px;
+    margin: 0 10px;
+}
+
+.from-me {
+    background-image: url("media/Kano_City_Aerial.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    margin: 0;
+}
+
+#from-me {
+    background-image: url("media/stateroundabout.jpg");
+    background-size: cover;
+    margin: 50px auto 0; 
+    padding: 20px;
+    display: flex;
+    justify-content:space-around;
+    border-bottom: 6px solid #e63946;
+    border-left: 6px solid #e63946;
+    border-radius: 10px;
+    width: 400px;
+    height: 250px;
+}
+
+.from-me img {
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+    margin: 50px 0;
+}
